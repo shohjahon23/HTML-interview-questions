@@ -29,16 +29,16 @@
   2. internal(Critical css)
   3. external
 
-# JavaScript fayllarni ulsh tartibi qanday? 
+# JavaScript fayllarni ulash tartibi qanday? 
 
   1. JS fayllar `<body>` tegi oxirida yoki `<head>` tegi ichida.
   2. JS fayllar kerakli qismini  `<body>` tegi oxirida. Qolganini asinxron yuklash. Yoki hammasini asinxron yuklash.
 
    ``` js
    // Async yuklanishi bilan ishlaydi. HTML o'qib bo'linishini(parsing) kutib turmaydi.    
-   // Ishlashni boshlaganida **parser** bloklanadi.
-   <script async src="script.js">
+   // Ishlashni boshlaganida parser bloklanadi.
+   <script async src="script.js" />
 
    // Defer yuklanganidan so'ng HTML to'liq o'qib bo'linishini kutib turadi. 
-   // Ishlashni boshlaganida **parser** bloklanmaydi.   
+   // Ishlashni boshlaganida parser bloklanmaydi.   
    <script defer src="script.js">
