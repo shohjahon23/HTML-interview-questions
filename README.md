@@ -51,7 +51,7 @@
   3. Understandable (Sayt barcha uchun tushunarli bo'lishi)
   4. Robust (Sayt hozirgi va keyin kelishi mumkin bo'lgan qurilmalarda deyarli bir xil ishlashi.)
 - Qanday qilib saytning accessibility qismini oshirish mumkin! 
-  1. Alt teglar (<img src="url" alt="Rasm haqida ma'lumot">)
+  1. Alt teglar `<img src="url" alt="Rasm haqida ma'lumot">`
   2. Semantik elemantlar orqali. (keyingi savolda)
   3. Aria attributlar orqali. (keyingi savolda)
   4. Video/audio captions, autocomplete inputs, using keyboardsva hkz.
@@ -60,4 +60,9 @@
 
 ## Semantik elementlar nima?
 
-- 
+- Semantik elementlar - nomidan odam va kompyuter tushunadigan qilib yozilgan elementlardir. Masalan: <header>, <footer>, <main>, <section>, <nav> va hkz. Ularning asl ustunliklari quyidagilar:
+
+  1. O'qish va tushunishga oson.
+  2. Accessibility oshiradi.
+
+
