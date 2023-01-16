@@ -60,9 +60,11 @@
 
 ## Semantik elementlar nima?
 
-- Semantik elementlar - nomidan odam va kompyuter tushunadigan qilib yozilgan elementlardir. Masalan: <header>, <footer>, <main>, <section>, <nav> va hkz. Ularning asl ustunliklari quyidagilar:
+- Semantik elementlar - nomidan odam va kompyuter tushunadigan qilib yozilgan elementlardir. Masalan: `<header>, <footer>, <main>, <section>, <nav>` va hkz. Ularning asl ustunliklari quyidagilar:
 
   1. O'qish va tushunishga oson.
   2. Accessibility oshiradi.
 
+## HTMLda aria atributlarning o'rni qanday?
 
+- Aria(Accessible Rich Internet Applications) atributlar saytni ko'zi ojiz insonlar ishlatishi oson bo'lishi uchun ishlatiladigan atributlar to'plami. Screen readerlar aria atributlarni dasturni ko'zi ojiz insonlarga to'gri va tushunarli o'qib berish uchun foydalanishadi.
